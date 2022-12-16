@@ -1,7 +1,7 @@
 source 'https://api.berkshelf.com'
 
 cookbook 'apt', '= 3.0.0', git: 'https://github.com/opscode-cookbooks/apt.git', tag: 'v3.0.0'
-cookbook 'ark', git: 'https://github.com/burtlo/ark.git', tag: 'v0.9.0'
+cookbook 'ark', '= 0.9.0', git: 'https://github.com/burtlo/ark.git', tag: 'v0.9.0'
 cookbook 'bluepill', '>= 2.3.1', git: 'https://github.com/opscode-cookbooks/bluepill.git', tag: 'v2.3.1'
 cookbook 'build-essential', '>= 1.4.2', git: 'https://github.com/opscode-cookbooks/build-essential.git', tag: 'v1.4.2'
 cookbook 'java', '>= 1.19.2', git: 'https://github.com/sous-chefs/java.git', tag: 'v1.21.2'
