@@ -11,6 +11,6 @@ cookbook 'python', '>= 1.4.6', git: 'https://github.com/poise/python.git', tag: 
 cookbook 'rsyslog', '>= 1.11.0', git: 'https://github.com/opscode-cookbooks/rsyslog.git', tag: 'v1.11.0'
 cookbook 'windows', '= 1.30.2', git: 'https://github.com/opscode-cookbooks/windows.git', tag: 'v1.30.2'
 cookbook 'yum', git: 'https://github.com/opscode-cookbooks/yum.git', tag: 'v3.1.0'
-cookbook 'yum-epel', '>= 0.3.4', git: 'https://github.com/opscode-cookbooks/yum-epel.git', tag: 'v0.3.4'
+cookbook 'yum-epel', '= 0.3.4', git: 'https://github.com/opscode-cookbooks/yum-epel.git', tag: 'v0.3.4'
 cookbook 'elasticsearch', '>= 0.3.14', git: 'https://github.com/elasticsearch/cookbook-elasticsearch.git', tag: 'v0.3.14'
 cookbook 'mongodb', git: 'https://github.com/edelight/chef-mongodb'
