@@ -1,4 +1,4 @@
-source 'https://api.berkshelf.com'
+source 'https://supermarket.chef.io/'
 
 cookbook 'apt', '= 3.0.0', git: 'https://github.com/opscode-cookbooks/apt.git', tag: 'v3.0.0'
 cookbook 'ark', '= 0.9.0', git: 'https://github.com/burtlo/ark.git', tag: 'v0.9.0'
