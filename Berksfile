@@ -14,4 +14,4 @@ cookbook 'yum', '= 3.6.3', git: 'https://github.com/opscode-cookbooks/yum.git', 
 cookbook 'yum-epel', '= 0.7.1', git: 'https://github.com/opscode-cookbooks/yum-epel.git', tag: 'v0.7.1'
 cookbook 'elasticsearch', '>= 0.3.14', git: 'https://github.com/elasticsearch/cookbook-elasticsearch.git', tag: 'v0.3.14'
 cookbook 'mongodb', git: 'https://github.com/edelight/chef-mongodb'
-cookbook 'seven-zip', '= 2.0.2', git: 'https://github.com/sous-chefs/seven_zip.git', tag: 'v2.0.2'
+cookbook 'seven_zip', '= 2.0.2', git: 'https://github.com/sous-chefs/seven_zip.git', tag: 'v2.0.2'
