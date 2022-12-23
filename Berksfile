@@ -1,6 +1,5 @@
 source 'https://supermarket.chef.io'
 
-
 cookbook 'apt',	'>= 2.3.8'
 cookbook 'ark'
 cookbook 'bluepill','>= 2.3.1'
